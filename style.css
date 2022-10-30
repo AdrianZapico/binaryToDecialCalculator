@@ -48,3 +48,35 @@ border-color: rgb(32, 235, 49);
   input{
    color:  rgb(32, 235, 49);
   }
+
+
+  
+  .formTag{
+    margin:10px;
+  }
+  .number{
+    padding:5px;
+    width:250px;
+    border: #cdcdcd solid 1px;
+    box-shadow: inset 1px 1px 3px #f6f6f6;
+    -moz-box-shadow: inset 1px 1px 3px #f6f6f6;
+    -webkit-box-shadow: inset 1px 1px 3px #f6f6f6;
+  }
+  .number:focus{
+    outline:none;
+    border-color: #3da6ff;
+    box-shadow: 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 transparent;
+    color: #333;
+  }
+  #error{
+    margin-top:4px;
+    background:  rgb(32, 235, 49);
+    color:black;
+    padding:10px;
+    display:none;
+    position: relative;
+    left: 440px;
+    width: 250px;
+  }
